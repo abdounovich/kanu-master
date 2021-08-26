@@ -597,9 +597,7 @@ public function func(){
         $botman->say( "🙋‍♂️ مرحبا ".$appointment->facebook,$appointment->fb_id, FacebookDriver::class);
         $botman->say( " ⏳ تبقت ربع ساعة على موعد حلاقتك ",$appointment->fb_id, FacebookDriver::class);
     }
-    if ($d==$trnt) {
-       
-  
+    if ($d==$trnt) {  
           
         $botman->say( "⏰ تذكير ⏰",$appointment->fb_id, FacebookDriver::class);
         $botman->say( "🙋‍♂️ مرحبا ".$appointment->facebook,$appointment->fb_id, FacebookDriver::class);
